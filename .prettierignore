@@ -7,6 +7,8 @@ dist
 
 # Node dependencies
 node_modules
+pnpm-lock.yaml
+*.lock
 
 # Logs
 logs
@@ -14,6 +16,10 @@ logs
 
 # Linter
 .eslintcache
+
+# Test
+coverage
+e2e
 
 # Misc
 .DS_Store
